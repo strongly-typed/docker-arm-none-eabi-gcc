@@ -15,8 +15,8 @@ RUN apt update && \
       bzip2 \
       wget && \
     apt clean && \
-    wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2017q4/gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2 -O cortex_m.tar.bz2 && \
+    wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2 -O cortex_m.tar.bz2 && \
     tar -xjf cortex_m.tar.bz2 && \
     rm cortex_m.tar.bz2
 
-ENV PATH "/work/gcc-arm-none-eabi-7-2017-q4-major/bin:$PATH"
+ENV PATH "/work/gcc-arm-none-eabi-8-2018-q4-major/bin:$PATH"

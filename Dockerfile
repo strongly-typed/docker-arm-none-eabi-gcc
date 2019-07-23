@@ -1,5 +1,5 @@
 FROM ubuntu:18.10
-MAINTAINER Niklas Hauser <niklas.hauser@rwth-aachen.de>
+LABEL maintainer="Niklas Hauser <niklas.hauser@rwth-aachen.de>"
 LABEL Description="Image for building and debugging arm-embedded projects from git"
 WORKDIR /work
 
